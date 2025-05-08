@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+*.env
+*.env.*
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/config.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Heroku / build artifacts
+*.sqlite3
+*.db
+*.tar.gz
+*.egg-info/
+dist/
+build/
+
+# Python test output
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyCharm specific cache
+*.iml
+*.ipr
+*.iws
+
+# Secrets (be sure to avoid pushing API keys!)
+secrets.*
